@@ -1,0 +1,408 @@
+.fungif_tooltip_top_right {
+    margin-top: 0;
+}
+
+.fungif_top_right .fungif_tool_tail {
+    text-align: right;
+}
+
+.fungif_tooltip_body {
+    background: #fafafa;
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.fungif_panel {
+    position: absolute;
+    padding: 3px;
+    z-index: 99998;
+    left: -1000px;
+    top: -1000px;
+    
+}
+
+.fungif_tooltip_body img {
+    padding: 1px;
+    cursor: pointer;
+    vertical-align: inherit;
+    display: block;
+    float: left;
+    padding: 2px;
+}
+
+.fungif_category img:hover {
+    outline: 1px solid #d4d4d4;
+}
+
+.fungif_btn {
+    background:url(../images/wysiwyg.png) no-repeat;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.mce-i-fungif_tinymce_btn{
+	background:url(../images/wysiwyg.png) no-repeat !important;
+    border: 1px solid #ccc !important;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background-position: -242px 1px !important;
+}
+
+.fungif_comment_btn {
+    background-position: -242px center;
+    width: 24px;
+    float: left;
+    height: 24px;
+}
+
+.fungif_status_btn {
+    background-position: -242px 1px;
+    width: 21px;
+    float: left;
+    height: 22px;
+}
+
+.fungif_wysiwyg {
+    background-position: -242px 2px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.fungif_question {
+    margin: 1px;
+}
+
+.fungif_question {
+    margin: 1px;
+}
+
+.fungif_photo {
+    left: 1px;
+    background-position: -242px 0px;
+    width: 22px;
+    height: 22px;
+    top: 207px;
+    position: absolute;
+    display: none;
+}
+
+.fungif_photo_edit {
+    background-position: -242px 1px;
+    width: 21px;
+    float: left;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.ow_photo_preview_action:hover .fungif_photo {
+    display: block;
+}
+
+.fungif_chat_dialog {
+    background-position: -242px 1px;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+}
+
+.fungif_tab_body {
+    margin-bottom: -1px;
+}
+
+.fungif_category {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.fungif_tab_container_top {
+    margin: 3px 3px -8px 3px;
+}
+
+.fungif_tab_container_bottom {
+    margin: -3px 3px -1px 3px;
+}
+
+.fungif_tab {
+    background: url("../images/console_item_bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #6c6c6c;
+    display: inline-block;
+    line-height: 16px;
+    padding: 2px 6px 2px 7px;
+    text-decoration: none;
+}
+
+.fungif_tab.active,
+.fungif_tab:hover {
+    background: url("../images/console_active_item_bg.png") repeat-x scroll 0 0 #eeeeee;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: inline-block;
+    line-height: 16px;
+    padding: 2px 6px 2px 7px;
+    text-decoration: none;
+}
+
+.fungif_tab img {
+    padding-top: 2px;
+}
+
+/* Base CSS */
+
+.ow_comments_input .ow_attachment_icons{
+    z-index: 10;
+}
+
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+#tiptip_holder.tip_top {
+    padding-bottom: 5px;
+}
+
+#tiptip_holder.tip_bottom {
+    padding-top: 5px;
+}
+
+#tiptip_holder.tip_right {
+    padding-left: 5px;
+}
+
+#tiptip_holder.tip_left {
+    padding-right: 5px;
+}
+
+#tiptip_content {
+    font-size: 11px;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    padding: 4px 8px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background-color: rgb(25,25,25);
+    background-color: rgba(25,25,25,0.92);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: 0 0 3px #555;
+    -webkit-box-shadow: 0 0 3px #555;
+    -moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+    position: absolute;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 6px;
+    height: 0;
+    width: 0;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow {
+    border-top-color: #fff;
+    border-top-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+    border-bottom-color: #fff;
+    border-bottom-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+    border-right-color: #fff;
+    border-right-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+    border-left-color: #fff;
+    border-left-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+    margin-top: -7px;
+    margin-left: -6px;
+    border-top-color: rgb(25,25,25);
+    border-top-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    margin-top: -5px;
+    margin-left: -6px;
+    border-bottom-color: rgb(25,25,25);
+    border-bottom-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+    margin-top: -6px;
+    margin-left: -5px;
+    border-right-color: rgb(25,25,25);
+    border-right-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+    margin-top: -6px;
+    margin-left: -7px;
+    border-left-color: rgb(25,25,25);
+    border-left-color: rgba(25,25,25,0.92);
+}
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {	
+    #tiptip_content {
+        padding: 4px 8px 5px 8px;
+        background-color: rgba(45,45,45,0.88);
+    }
+    #tiptip_holder.tip_bottom #tiptip_arrow_inner { 
+        border-bottom-color: rgba(45,45,45,0.88);
+    }
+    #tiptip_holder.tip_top #tiptip_arrow_inner { 
+        border-top-color: rgba(20,20,20,0.92);
+    }
+}
+
+
+#fungif_wrapper {
+	width: 100%;
+	max-width: 640px;
+	min-width: 190px;
+	margin-top: 6px;
+        margin-bottom: 6px;
+}
+
+
+.fungif_pin {
+    width: -webkit-calc(100% - 8px);
+    width: -moz-calc(100% - 8px);
+    width: calc(100% - 8px);
+    max-height: 240px;
+    min-height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    background-color: #F2F2F2;
+}
+
+.fungif_image_view_wrapper{
+    border: 1px #F2F2F2 solid;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    width: 168px;
+    background-color: #F2F2F2;
+    color: transparent;
+    
+}
+
+.fungif_image_view{
+    border: 1px #f2f2f2 solid;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.fungif_image_view img{
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    max-width: 300px;
+    width: 100%;
+    min-height: 60px;
+}
+
+
+.fungif_searchbar_expand_btn{
+    position: absolute; 
+    right: 10px; 
+    top: 0px; 
+    bottom: 0px; 
+    width: 30px;
+    background: no-repeat center url("../images/arrow_expand.png");
+    background-size: 100% 100%; 
+    cursor: pointer;
+}
+
+.fungif_retry_button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1px solid #999;
+    cursor: pointer;
+
+}
+
+.fungif_search_input{
+  display: block;
+  margin: 10px;
+  font-family: sans-serif;
+  appearance: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+}
+
+.fungif-remove-button{
+	width: 24px;
+	height: 24px;
+	background-image: url('../images/ic_close_white.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	background-color: black;
+	background-position: center;
+	cursor: pointer;
+	border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+	
+}
+
+/*
+
+@media (min-width: 960px) {
+	#columns {
+		-webkit-column-count: 4;
+		-moz-column-count: 4;
+		column-count: 4;
+	}
+}
+
+@media (min-width: 1100px) {
+	#columns {
+		-webkit-column-count: 5;
+		-moz-column-count: 5;
+		column-count: 5;
+	}
+}
+*/
